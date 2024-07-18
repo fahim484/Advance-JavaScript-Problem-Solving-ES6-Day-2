@@ -13,11 +13,11 @@ console.log(age); // 23
 
 // TODO: 2. Create a module that exports a function to calculate the area of a circle and import it into another file.
 
-// import { calculateArea } from "./module.js";
-// const radius = 5;
+import { calculateArea } from "./module.js";
+const radius = 5;
 
-// const area = calculateArea(radius);
-// console.log("Area of the circle:", area);
+const myArea = calculateArea(radius);
+console.log("Area of the circle:", myArea);
 
 // TODO: 3. Create a class Rectangle with properties width and height and a method to calculate the area.
 
